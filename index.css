@@ -1,0 +1,160 @@
+html, body {
+    background-color: rgb(236, 229, 220);
+    color: #333;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+}
+
+div#app {
+    padding: 2rem;
+    margin: 2rem;
+    background-color: #d4d4d4;
+    height: -webkit-fill-available;
+}
+
+.instruction-header {
+
+}
+
+.start-button-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-transform: capitalize;
+    border: none;
+    box-shadow: 1px 1px 2px 1px #aaa;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+button#start-button {
+    background-color: #1565c0;
+    color: #fff;
+}
+
+#start-button:hover {
+    background-color: #0d47a1;
+}
+
+.quiz-header {
+    background-color: #b6b6b6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+button#end-quiz {
+    height: 30px;
+    background-color: #0d47a1;
+    color: #fff;
+}
+
+.quiz-container {
+    display: flex;
+    column-gap: 1rem;
+}
+
+div#question-list-container {
+    flex: 300px 0 0;
+}
+
+div#question-details-container {
+    width: 100%;
+    background-color: #fff;
+    padding: 1rem;
+}
+
+ul.question-list {
+    padding: 0px;
+    margin: 0;
+}
+
+li.question-list-item {
+    list-style: none;
+    display: flex;
+    column-gap: 5px;
+    background-color: #fff;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s;
+    border-bottom: 1px solid #ccc;
+}
+
+li.question-list-item:hover {
+    background-color: #ccc;
+}
+
+.question-number {  
+    font-weight: 600;
+}
+
+#question-details-container > .question-number {
+    margin-bottom: 1rem;
+}
+
+ul.option-list {
+    padding: 0;
+}
+
+li.answer-option {
+    list-style: none;
+    display: flex;
+    column-gap: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+li.answer-option:hover {
+    background-color: #ccc;
+}
+
+label.option-content {
+    cursor: pointer;
+}
+
+.score-container {
+    width: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.score-header {
+    font-weight: 600;
+}
+
+.score {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+}
+
+button#retake {
+    background-color: #0d47a1;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
