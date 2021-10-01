@@ -13,10 +13,6 @@ div#app {
     height: -webkit-fill-available;
 }
 
-.instruction-header {
-
-}
-
 .start-button-container {
     display: flex;
     justify-content: flex-end;
