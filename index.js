@@ -21,7 +21,7 @@ const questions = [
     },
     {
         question: "Who is founder of Microsoft",
-        answers: ["Zefbesose", "Sunder Pichai", "Bill Gates", "Ravindra Charndran"],
+        answers: ["Zefbesose", "Sunder Pichai", "Bill Gates", "Ravindra Chandran"],
         correctIndex: 2
     },
     {
